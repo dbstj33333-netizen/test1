@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>레이아웃 연습</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font.css">
@@ -21,7 +21,7 @@
 
             <div class="login_box">
                 <div class="login">
-                    <a href="#">로그인</a>
+                    <a href="#section4">로그인</a>
                     <a href="#">회원가입</a>
                     <a href="#">사이트맵</a>
                 </div>
@@ -33,18 +33,30 @@
             </div>
         </div>
 
-        <h1><a href="#"><img src="images/logo.png" alt="로고"></a></h1>
+        <h1><a href="index.html"><img src="images/logo.png" alt="로고"></a></h1>
 
         <nav>
-            <ul class="gnb">
+            <ul class="gnb"><!--global navigation bar-->
                 <li>
-                    <a href="#">home</a>
+                    <a href="greeting.html">무디소개</a>
+                    <ul class="lnb"> <!--local navigation bar-->
+                        <li><a href="#">2차 카테고리</a></li>
+                        <li><a href="#">2차 카테고리</a></li>
+                        <li><a href="#">2차 카테고리</a></li>
+                        <li><a href="#">2차 카테고리</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="#">AI 추천</a>
                 </li>
                 <li>
-                    <a href="#">무디검색</a>
+                    <a href="#">무디탐색</a>
+                    <ul class="lnb"> <!--local navigation bar-->
+                        <li><a href="#">2차 카테고리</a></li>
+                        <li><a href="#">2차 카테고리</a></li>
+                        <li><a href="#">2차 카테고리</a></li>
+                        <li><a href="#">2차 카테고리</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="#">마이뮤직</a>
@@ -456,7 +468,7 @@
 
 
     <footer>
-        <div class="container"></div>
+        .container
     </footer>
 
 
